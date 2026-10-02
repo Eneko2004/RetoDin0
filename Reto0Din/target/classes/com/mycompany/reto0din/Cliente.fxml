@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="248.0" prefWidth="344.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.reto0din.ClienteController">
+   <children>
+      <Label layoutX="52.0" layoutY="71.0" text="Telefono" />
+      <Label layoutX="47.0" layoutY="110.0" text="Apodo" />
+      <Label layoutX="50.0" layoutY="151.0" text="Direccion" />
+      <TextField fx:id="telefonoField" layoutX="125.0" layoutY="67.0" />
+      <Label layoutX="97.0" layoutY="29.0" text="MODIFICAR DATOS CLIENTE" />
+      <TextField fx:id="apodoField" layoutX="125.0" layoutY="106.0" />
+      <TextField fx:id="direccionField" layoutX="125.0" layoutY="147.0" />
+      <Button fx:id="modificarButton" layoutX="226.0" layoutY="195.0" mnemonicParsing="false" onAction="#modificarDatos" text="Modificar" />
+      <Button fx:id="cerrarButton" layoutX="42.0" layoutY="195.0" mnemonicParsing="false" onAction="#cerrarSesion" prefHeight="25.0" prefWidth="87.0" text="Cerrar Sesion" />
+   </children>
+</Pane>
